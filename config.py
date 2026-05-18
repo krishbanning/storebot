@@ -1,0 +1,27 @@
+import os
+from os import getenv
+
+API_ID = int(getenv("API_ID", "39012977234")) 
+API_HASH = getenv("API_HASH", "e5ad4cede3agg4e96f84f47b2a6b9b401f")
+BOT_TOKEN = getenv("BOT_TOKEN", "8611iit37818985:AAHxYzsHFzY9XTazB9lPFvX5iWGEYHEnkSc")
+
+MONGO_URI = "json_mode"  
+
+ADMINS = [8430916426, 8238387029, 8287638082]
+STATIC_2FA_PASSWORD = "92"
+ADMIN_GROUP_ID = -1003494631604
+
+USDT_RATE = 90.0  
+FAMPAY_EMAIL = "atulkumarpatel180@gmail.com"
+FAMPAY_APP_PASSWORD = "mxoq yqnp rxzy jrwz"
+FAMPAY_API_KEY = "SUBH2"
+
+PAYMENT_UPI_ID = "atul369@fam"
+BINANCE_ID = "1220155315"
+TRC20_ADDRESS = "TEXjaYKjW8w9QTZCGkruP9rxT9g4SGzVLa"
+
+LOG_CHANNEL = -1001951148044
+DEFAULT_FSUB_ID = -1003012425628
+DEFAULT_FSUB_LINK = "https://t.me/+olAo3z10CiwM5mYTk9"
+
+DIVIDER = "━━━━━━━━━━━━━━━━━━━━━━"
