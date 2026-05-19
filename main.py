@@ -1,3 +1,9 @@
+import admin
+import buy
+import deposit
+import redeem
+import stock
+import manager
 import asyncio
 import logging
 import sys
@@ -15,14 +21,13 @@ async def start_bot():
     global app
 
     app = Client(
-        "SimpleStoreUltimate",
-        api_id=API_ID,
-        api_hash=API_HASH,
-        bot_token=BOT_TOKEN,
-        plugins=dict(root="plugins"),
-        parse_mode=enums.ParseMode.HTML
+    "SimpleStoreUltimate",
+    api_id=API_ID,
+    api_hash=API_HASH,
+    bot_token=BOT_TOKEN,
+    parse_mode=enums.ParseMode.HTML
     )
-
+    
     await app.start()
 
     me = await app.get_me()
