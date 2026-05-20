@@ -1,16 +1,12 @@
 import os
 from os import getenv
 
-API_ID = 31696769
-API_HASH = "2f9cb51f4fffc890b8fe23baab17b9c5"
-BOT_TOKEN = "8971848487:AAHHZfDybYq-6vivx73aCnuO9Yq9tAiSZDk"
-
-MONGO_URI = "mongodb+srv://akashrajput010208:qy9qMomvLOpbegOP@cluster0.21upfwm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
-
+API_ID="31696769"
+API_HASH="2f9cb51f4fffc890b8fe23baab17b9c5"
+BOT_TOKEN="8971848487:AAHHZfDybYq-6vivx73aCnuO9Yq9tAiSZDk"
+MONGO_URI="mongodb+srv://akashrajput010208:qy9qMomvLOpbegOP@cluster0.21upfwm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 ADMINS = [7832349983]
-
 STATIC_2FA_PASSWORD = "92"
-
 USDT_RATE = 90.0
 
 # Manual Payment Mode
