@@ -19,14 +19,14 @@ app = None
 # ================= START BOT =================
 async def start_bot():
     global app
-
-    app = Client(
+app = Client(
     "SimpleStoreUltimate",
     api_id=API_ID,
     api_hash=API_HASH,
     bot_token=BOT_TOKEN,
-    parse_mode=enums.ParseMode.HTML
-    )
+    parse_mode=enums.ParseMode.HTML,
+    plugins=dict(root="plugins")
+)
     
     await app.start()
 
